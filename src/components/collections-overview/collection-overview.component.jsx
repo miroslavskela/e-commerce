@@ -8,6 +8,7 @@ import React from 'react'
 import CollectionPreview from '../preview-collection-component/preview.collection.component'
 
 const CollectionOverview = ({collections}) => {
+    console.log("hhahaha")
     return (
         <div className='collections-overview'>
             {collections.map(({id, ...otherCollectionProps}) => ( 
